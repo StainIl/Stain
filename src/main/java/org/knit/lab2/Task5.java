@@ -11,6 +11,8 @@ public class Task5 {
 
         FileSystemComponent folder1 = new Folder("Folder1");
         FileSystemComponent folder2 = new Folder("Folder2");
+        
+        List<Integer> numbers = new ArrayList<>();
 
         // Добавляем файлы в папки
         folder1.add(file1);
